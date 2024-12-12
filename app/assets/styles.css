@@ -2,9 +2,6 @@
 
 @theme {
 	--font-geist: 'geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	--color-zinc-925: #111113;
-	--color-primary: #FE2401;
-	--shadow-modal: rgba(0, 0, 0, 0.15) 0px 4px 40px, rgba(0, 0, 0, 0.184) 0px 3px 20px, rgba(0, 0, 0, 0.184) 0px 3px 12px, rgba(0, 0, 0, 0.184) 0px 2px 8px, rgba(0, 0, 0, 0.184) 0px 1px 1px;
 }
 
 
@@ -38,15 +35,5 @@
 	:focus-visible, .focus-visible {
 		outline: var(--color-zinc-500) solid 2px;
 		outline-offset: 4px;
-	}
-
-	::selection {
-		background-color: var(--color-primary);
-		color: var(--color-zinc-950);
-	}
-
-	.overflow-y-scroll {
-		scrollbar-width: thin;
-		scrollbar-color: var(--color-zinc-700) transparent;
 	}
 }
